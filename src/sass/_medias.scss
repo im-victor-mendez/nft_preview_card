@@ -1,0 +1,7 @@
+@import './mixins';
+
+@include desktop() {
+	.card {
+		max-width: 16rem;
+	}
+}
