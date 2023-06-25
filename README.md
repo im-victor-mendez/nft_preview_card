@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [GitHub](https://github.com/im-victor-mendez/nft_preview_card)
+- Live Site URL: [Netlify](https://nft-card-im-victor-mendez.netlify.app/)
 
 ## My process
 

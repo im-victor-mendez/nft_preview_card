@@ -25,7 +25,9 @@ function App() {
 					<p className="description">{nft.description}</p>
 					<div className="information">
 						<div className="coin">
-							<i className="icon">{<nft.imageCoin />}</i>
+							<i className="icon">
+								<nft.imageCoin />
+							</i>
 							<p className="value">
 								{nft.price} {nft.coin}
 							</p>
