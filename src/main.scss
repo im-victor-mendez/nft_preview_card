@@ -1,9 +1,12 @@
 @import './sass/colors';
+@import './sass/fonts';
 
 body {
 	background-color: $very-dark-blue-main;
 	display: grid;
 	place-items: center;
 	margin: 0;
+	padding: 0rem 2rem;
 	min-height: 100vh;
+	font-family: $font-family;
 }

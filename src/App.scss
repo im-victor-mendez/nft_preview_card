@@ -1,0 +1,76 @@
+@import './sass/colors';
+
+$fill: -webkit-fill-available;
+
+.card {
+	background-color: $very-dark-blue-card;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 2rem;
+	border-radius: 1rem;
+
+	* {
+		margin: 0;
+	}
+
+	.image {
+		border-radius: 1rem;
+		width: 100%;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+
+		.title {
+			color: $white;
+		}
+
+		.description {
+			color: $soft-blue;
+		}
+
+		.information {
+			display: flex;
+			justify-content: space-between;
+			.coin {
+				color: $cyan;
+				display: flex;
+				gap: 0.5rem;
+			}
+
+			.date-left {
+				color: $soft-blue;
+				display: flex;
+				gap: 0.5rem;
+			}
+		}
+
+		.divider {
+			background-color: $very-dark-blue;
+			width: $fill;
+			height: 1px;
+		}
+
+		.owner {
+			color: $soft-blue;
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+
+			.image {
+				background-color: $white;
+				width: auto;
+				height: 25px;
+				padding: 1px;
+				border-radius: 100%;
+			}
+
+			.important {
+				color: $white;
+			}
+		}
+	}
+}
