@@ -1,0 +1,9 @@
+@import './sass/colors';
+
+body {
+	background-color: $very-dark-blue-main;
+	display: grid;
+	place-items: center;
+	margin: 0;
+	min-height: 100vh;
+}
